@@ -1,0 +1,919 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Virtual Coding</title>
+  <meta name="description" content="Virtual Coding is a technology services business entity that specializes in providing various Information Communications Technology Services.">
+  <meta name="keywords" content="Virtual Coding, technology services, ICT, Information Communications Technology, affordable tech solutions, professional tech solutions">
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <!-- Other meta tags -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@VirtualCoding">
+  <meta name="twitter:title" content="Virtual Coding">
+  <meta name="twitter:description" content="Virtual Coding is a technology services business entity that specializes in providing various Information Communications Technology Services.">
+  <meta name="twitter:image" content="assets/img/logo.png">
+
+  <meta property="og:type" content="website">
+<meta property="og:url" content="https://virtual-coding.web.app">
+<meta property="og:title" content="Virtual Coding">
+<meta property="og:description" content="Virtual Coding is a technology services business entity that specializes in providing various Information Communications Technology Services.">
+<meta property="og:image" content="assets/img/logo.png">
+
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://virtual-coding.web.app">
+<meta property="og:title" content="Virtual Coding">
+<meta property="og:description" content="Virtual Coding is a technology services business entity that specializes in providing various Information Communications Technology Services.">
+<meta property="og:image" content="assets/img/logo.png">
+
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  licences
+  ======================================================== -->
+  <style>
+    #loader {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center; 
+    }
+    
+    #loader img {
+      width: 200px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-center">
+    <div class="container d-flex justify-content-between">
+
+      <div class="logo">
+        <!-- Uncomment below if you prefer to use an text logo -->
+        <!-- <h1><a href="index.html">Virtual Coding</a></h1> -->
+        <a href="index.html"><img src="assets/img/logo.png"  alt="Virtual Coding" class="img-fluid"></a>
+      </div>
+
+      <nav id="navbar" style="color: #220b8a;" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#about">About</a></li>
+          <li><a class="nav-link scrollto" href="#services">Services</a></li>
+          <li><a class="nav-link scrollto " href="#portfolio">Portfolio</a></li>
+          <li><a class="nav-link scrollto" href="#team">Team</a></li>
+          <li class="dropdown"><a href="#"><span>Courses</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              
+              <li class="dropdown"><a href="register.html#courses"><span>WEB DEVELOPMENT</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="register.html#courses">Introduction to Web design & development</a></li>
+                  <li><a href="register.html#courses">Dynamic Web Development</a></li>
+                  <li><a href="register.html#courses">Advanced Website Development</a></li>
+                  <li><a href="register.html#courses">Web Security</a></li>
+                  
+                </ul>
+              </li>
+
+              <li class="dropdown"><a href="register.html#courses"><span>COMPUTER PROGRAMMING</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="register.html#courses">Computer Programming with Python</a></li>
+                  <li><a href="register.html#courses">Computer Programming with Java</a></li>
+                  <li><a href="register.html#courses">Computer Programming with C++</a></li>
+                  <li><a href="register.html#courses">Computer Programming with C#</a></li>
+                  
+                </ul>
+              </li>
+
+              <li class="dropdown"><a href="register.html#courses"><span>DATA AND DATABASE MANAGEMENT</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="register.html#courses">Data Analysis and Administration</a></li>
+                  <li><a href="register.html#courses">Introduction to Database Management</a></li>
+                  <li><a href="register.html#courses">Database Administration</a></li>
+                  <li><a href="register.html#courses">Advanced Database Administration</a></li>
+                  
+                </ul>
+              </li>
+
+              <li class="dropdown"><a href="register.html#courses"><span>ICT ESSENTIALS</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="register.html#courses">Introduction to ICT</a></li>
+                  <li><a href="register.html#courses">I.T Office Packages</a></li>
+                  <li><a href="register.html#courses">Computer Networking</a></li>
+                  <li><a href="register.html#courses">Computer Hardware and Software Systems</a></li>
+                  
+                </ul>
+              </li>
+
+             <!--<a href="#">Drop Down 2</a></li>
+              <li><a href="#">Drop Down 3</a></li>
+              <li><a href="#">Drop Down 4</a></li>--> 
+              <li>
+            </ul>
+          </li>
+          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- #header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="clearfix">
+    <div class="container" data-aos="fade-up">
+
+      <!--
+      <div class="hero-img" data-aos="zoom-out" data-aos-delay="200">
+        <img src="assets/img/hero-img.svg" alt="" class="img-fluid">
+      </div>
+      -->
+
+      
+      <div class="hero-info" data-aos="zoom-in" data-aos-delay="100">
+        <h2>Affordable & <span style="color: #6cc060;">Professional </span><br>Tech Solutions</h2>
+        <div>
+          <a href="register.html" class="btn-get-started scrollto">Get Started</a>
+          <a href="#services" class="btn-services scrollto">Our Services</a>
+        </div>
+      </div>
+
+    </div>
+  </section><!-- End Hero Section -->
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about">
+      <div class="container" data-aos="fade-up">
+
+        <header class="section-header">
+          <h3>About Us</h3>
+          <p>At Virtual Coder, we are dedicated to shaping the future of information technology and education. Established in February 2022, Virtual Coder is a technology services business entity that specializes in providing various Information Communications Technology Services. Our commitment to excellence and innovation drives us to offer unique and professional services, making us a standout in the industry.</p>
+        </header>
+
+        <div class="row about-container">
+          
+
+          <div class="col-lg-6 content order-lg-1 order-2">
+            <p>
+              We aim to be a leading force in the dynamic Information Communications Technology (ICT) sector, contributing to the education and skills development landscape through our innovative programs and services.
+            </p>
+
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
+              <div class="icon"><i class="bi bi-brightness-high"></i></div>
+              <h4 class="title"><a href="">Our Vision</a></h4>
+              <p class="description">Our vision is to become a leading force in the Technology Market by providing innovative and sustainable solutions that meet the evolving needs of our clients. We aim to be recognized as a trusted partner that delivers exceptional value and quality services, while fostering a culture of excellence and continuous improvement.</p>
+            </div>
+
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
+              <div class="icon"><i class="bi bi-card-checklist"></i></div>
+              <h4 class="title"><a href="">Our Mission</a></h4>
+              <p class="description">Our mission is to deliver technology solutions that meet the specific needs of our clients. We are committed to providing high-quality,innovative and sustainable solutions that exceed our clients' expectations and contribute to their success. We strive to achieve this mission by following professional strategies and approaches.</p>
+            </div>
+
+
+          </div>
+
+          <div class="col-lg-6 background order-lg-2" data-aos="zoom-in">
+            <img src="assets/img/hero-img.svg" class="img-fluid" alt="">
+          </div>
+        </div>
+
+        <div class="row about-extra">
+          <div class="col-lg-6" data-aos="fade-right">
+            <img src="assets/img/about-extra-1.svg" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-6 pt-5 pt-lg-0" data-aos="fade-left">
+            <h4>We strongly adhere to affordability and Professionalism</h4>
+            <p>
+              Our unique service approach ensures that our clients receive high-quality solutions that are both cost-effective and tailored to their specific needs. We believe that professionalism and affordability are not mutually exclusive, and we strive to demonstrate this in every aspect of our work</p>
+          </div>
+        </div>
+
+        <div class="row about-extra">
+          <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left">
+            <img src="assets/img/about-extra-2.svg" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-right">
+            <h4>Your problems, Our Solutions</h4>
+            <p>
+              High quality, timely and efficiency solutions tailored specifically for you and your needs. We ensure that we work hand in hand with you to meet your solution.
+            </p>
+            <p>
+              Our I.T Courses are offered 100% Online, Ensuring that you learn on your own pace, anytime, any place, with full sport from our team of experts. 
+            </p>
+         
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <header class="section-header">
+          <h3>Services</h3>
+          <p>We offer a wide range of services to cater to the diverse needs of our clients. Our services are designed to provide affordable and professional tech solutions that meet the specific requirements of our clients. Some of our key services include:</p>
+        </header>
+
+        <div class="row justify-content-center">
+
+          <div class="col-md-6 col-lg-5" data-aos="zoom-in" data-aos-delay="100">
+            <div class="box">
+
+              <div class="icon"><i class="bi bi-browser-chrome" style="color: rgb(122, 2, 122);"></i></div>
+              <h4 class="title"><a href="">WEBSITE DEVELOPMENT</a></h4>
+              <p class="description">We specialize in creating responsive and user-friendly websites using the latest technologies and design trends. Our team of expert developers ensures that your website is not only visually appealing but also secure, optimized for search engines and user experience.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-5" data-aos="zoom-in" data-aos-delay="200">
+            <div class="box">
+              <div class="icon"> <i class="bi bi-code-slash" style="color: #41cf2e;"></i></div>
+              <h4 class="title"><a href="">I.T TRAINING</a></h4>
+              <p class="description">We also offer I.T coaching in computer coding, ICT and Office Package training programs, including courses in programming with Python, Java, C++, and more. Our 100% online courses allow you to learn at your own pace, anytime, anywhere, with full support from our team of experts.</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-5" data-aos="zoom-in" data-aos-delay="100">
+            <div class="box">
+              <div class="icon"><i class="bi bi-bar-chart" style="color: #3fcdc7;"></i></div>
+              <h4 class="title"><a href="">DIGITAL MARKETING</a></h4>
+              <p class="description">Comprehensive digital marketing services, including SEO, social media, email, and content marketing.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-5" data-aos="zoom-in" data-aos-delay="200">
+            <div class="box">
+              <div class="icon"><i class="bi bi-phone-fill" style="color:#220b8a;"></i></div>
+              <h4 class="title"><a href="">MOBILE APP DEVELOPMENT</a></h4>
+              <p class="description"> Developing high-quality mobile applications for iOS and Android platforms.</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-5" data-aos="zoom-in" data-aos-delay="100">
+            <div class="box">
+              <div class="icon"><i class="bi bi-braces-asterisk" style="color: #300458;"></i></div>
+              <h4 class="title"><a href="">SOFTWARE DEVELOPMENT</a></h4>
+              <p class="description">Providing custom high-quality software solutions for desktop, web, and mobile applications to meet your business digital needs.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-5" data-aos="zoom-in" data-aos-delay="200">
+            <div class="box">
+              <div class="icon"><i class="bi bi-database-check" style="color: #4680ff;"></i></div>
+              <h4 class="title"><a href="">DATA ANALYTICS AND DATABASE ADMINISTRATION</a></h4>
+              <p class="description">Helping businesses make establish quality data and secure database infrastructures while maintaining  efficiency, accessibility and cost-effectiveness.</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Services Section -->
+
+    <!-- ======= Why Us Section ======= -->
+    <section id="why-us">
+      <div class="container" data-aos="fade-up">
+        <header class="section-header">
+          <h3>Why choose us?</h3>
+          <p>At Virtual Coding, we are committed to providing high-quality, innovative, and sustainable tech solutions that meet the specific needs of our clients. Here are some reasons why you should choose us:</p>
+        </header>
+
+        <div class="row row-eq-height justify-content-center">
+
+          <div class="col-lg-4 mb-4">
+            <div class="card" data-aos="zoom-in" data-aos-delay="100">
+              <i class="bi bi-cash-coin"></i>
+              <div class="card-body">
+                <h5 class="card-title">Affordable and Professional</h5>
+                <p class="card-text">We strive to deliver high-quality solutions that are both cost-effective and tailored to your specific needs</p>
+                <a href="#" class="readmore">Read more </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mb-4">
+            <div class="card" data-aos="zoom-in" data-aos-delay="200">
+              <i class="bi bi-clock-fill"></i>
+              <div class="card-body">
+                <h5 class="card-title">24/7 Support</h5>
+                <p class="card-text">We offer round-the-clock support to ensure that your tech solutions are always running smoothly and efficiently.</p>
+                <a href="#" class="readmore">Read more </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mb-4">
+            <div class="card" data-aos="zoom-in" data-aos-delay="300">
+              <i class="bi bi-chat-square-text"></i>
+              <div class="card-body">
+                <h5 class="card-title">Friendly Customer Communication</h5>
+                <p class="card-text">Our team consists of consumer friendly experts who are always ready to assist our clients professionally</p>
+                <a href="#" class="readmore">Read more </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mb-4">
+            <div class="card" data-aos="zoom-in" data-aos-delay="300">
+              <i class="bi bi-globe2"></i>
+              <div class="card-body">
+                <h5 class="card-title">100% Online Coding Training</h5>
+                <p class="card-text">Our computer coding training programs are offered 100% online, allowing you to learn at your own pace, anytime, anywhere, with full support from our team of experts.</p>
+                <a href="#" class="readmore">Read more </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mb-4">
+            <div class="card" data-aos="zoom-in" data-aos-delay="300">
+              <i class="bi bi-graph-up-arrow"></i>
+              <div class="card-body">
+                <h5 class="card-title">Proven track record</h5>
+                <p class="card-text">With a strong portfolio of successful projects and satisfied clients, we have a proven track record of delivering exceptional value and quality services.</p>
+                <a href="#" class="readmore">Read more </a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="row counters" data-aos="fade-up" data-aos-delay="100">
+
+          <div class="col-lg-3 col-6 text-center">
+            <span data-purecounter-start="0" data-purecounter-end="500"  data-purecounter-duration="1" class="purecounter"></span>
+            <p>Clients</p>
+          </div>
+
+          <div class="col-lg-3 col-6 text-center">
+            <span data-purecounter-start="0" data-purecounter-end="20" data-purecounter-duration="1" class="purecounter"></span>
+            
+            <p>Projects</p>
+          </div>
+
+          <div class="col-lg-3 col-6 text-center">
+            <span data-purecounter-start="0" data-purecounter-end="1364" data-purecounter-duration="1" class="purecounter"></span>
+            <p>Hours Of Support</p>
+          </div>
+
+          <div class="col-lg-3 col-6 text-center">
+            <span data-purecounter-start="0" data-purecounter-end="10" data-purecounter-duration="1" class="purecounter"></span>
+            <p>Hard Workers</p>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Why Us Section -->
+
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="clearfix">
+      <div class="container" data-aos="fade-up">
+
+        <header class="section-header">
+          <h3 class="section-title">Our Portfolio</h3>
+        </header>
+
+        <div class="row" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-12">
+            <ul id="portfolio-flters">
+              <li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-app">App</li>
+              <li data-filter=".filter-card">Card</li>
+              <li data-filter=".filter-web">Web</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/app1.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4><a href="portfolio-details.html">App 1</a></h4>
+                <p>App</p>
+                <div>
+                  <a href="assets/img/portfolio/app1.jpg" data-gallery="portfolioGallery" title="App 1" class="portfolio-lightbox link-preview"><i class="bi bi-plus"></i></a>
+                  <a href="portfolio-details.html" class="link-details" title="More Details"><i class="bi bi-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/web3.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4><a href="portfolio-details.html">Web 3</a></h4>
+                <p>Web</p>
+                <div>
+                  <a href="assets/img/portfolio/web3.jpg" class="portfolio-lightbox link-preview" data-gallery="portfolioGallery" title="Web 3"><i class="bi bi-plus"></i></a>
+                  <a href="portfolio-details.html" class="link-details" title="More Details"><i class="bi bi-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/app2.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4><a href="portfolio-details.html">App 2</a></h4>
+                <p>App</p>
+                <div>
+                  <a href="assets/img/portfolio/app2.jpg" class="portfolio-lightbox link-preview" data-gallery="portfolioGallery" title="App 2"><i class="bi bi-plus"></i></a>
+                  <a href="portfolio-details.html" class="link-details" title="More Details"><i class="bi bi-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/card2.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4><a href="portfolio-details.html">Card 2</a></h4>
+                <p>Card</p>
+                <div>
+                  <a href="assets/img/portfolio/card2.jpg" class="portfolio-lightbox link-preview" data-gallery="portfolioGallery" title="Card 2"><i class="bi bi-plus"></i></a>
+                  <a href="portfolio-details.html" class="link-details" title="More Details"><i class="bi bi-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/web2.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4><a href="portfolio-details.html">Web 2</a></h4>
+                <p>Web</p>
+                <div>
+                  <a href="assets/img/portfolio/web2.jpg" class="portfolio-lightbox link-preview" data-gallery="portfolioGallery" title="Web 2"><i class="bi bi-plus"></i></a>
+                  <a href="portfolio-details.html" class="link-details" title="More Details"><i class="bi bi-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/app3.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4><a href="portfolio-details.html">App 3</a></h4>
+                <p>App</p>
+                <div>
+                  <a href="assets/img/portfolio/app3.jpg" class="portfolio-lightbox link-preview" data-gallery="portfolioGallery" title="App 3"><i class="bi bi-plus"></i></a>
+                  <a href="portfolio-details.html" class="link-details" title="More Details"><i class="bi bi-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/card1.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4><a href="portfolio-details.html">Card 1</a></h4>
+                <p>Card</p>
+                <div>
+                  <a href="assets/img/portfolio/card1.jpg" class="portfolio-lightbox link-preview" data-gallery="portfolioGallery" title="Card 1"><i class="bi bi-plus"></i></a>
+                  <a href="portfolio-details.html" class="link-details" title="More Details"><i class="bi bi-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/card3.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4><a href="portfolio-details.html">Card 3</a></h4>
+                <p>Card</p>
+                <div>
+                  <a href="assets/img/portfolio/card3.jpg" class="portfolio-lightbox link-preview" data-gallery="portfolioGallery" title="Card 3"><i class="bi bi-plus"></i></a>
+                  <a href="portfolio-details.html" class="link-details" title="More Details"><i class="bi bi-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/web1.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4><a href="portfolio-details.html">Web 1</a></h4>
+                <p>Web</p>
+                <div>
+                  <a href="assets/img/portfolio/web1.jpg" class="portfolio-lightbox link-preview" data-gallery="portfolioGallery" title="Web 1"><i class="bi bi-plus"></i></a>
+                  <a href="portfolio-details.html" class="link-details" title="More Details"><i class="bi bi-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Portfolio Section -->
+
+    <!-- ======= Testimonials Section ======= -->
+    <section id="testimonials" class="section-bg">
+      <div class="container" data-aso="zoom-in">
+
+        <header class="section-header">
+          <h3>Testimonials</h3>
+        </header>
+
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+
+            <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+              <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+                  <div class="testimonial-item">
+                    <img src="assets/img/clients/Portrait Picture/john mussah.jpg" class="testimonial-img" alt="">
+                    <h3>John Mussah</h3>
+                    <h4>Journalist &amp; Studied at MUBAS</h4>
+                    <p>
+                      To enhance my Computer Skills, I joined the Online Coding training program, which proved to be very effective to my academic busy schedules, and I learned a lot from my training. Totally worth it!
+                    </p>
+                  </div>
+                </div><!-- End testimonial item -->
+
+                <div class="swiper-slide">
+                  <div class="testimonial-item">
+                    <img src="assets/img/clients/Portrait Picture/chimwemwe afiya.jpg" class="testimonial-img" alt="">
+                    <h3>Chimwemwe Afiya</h3>
+                    <h4>Student, Malawi College of Accountancy</h4>
+                    <p>
+                      Virtual Coder offered me the opportunity to easly grasp what I had dificulty understanding in Class. The training is structure in easy to follow and engaging manner.
+                    </p>
+                  </div>
+                </div><!-- End testimonial item -->
+
+                <div class="swiper-slide">
+                  <div class="testimonial-item">
+                    <img src="assets/img/clients/Portrait Picture/gannet chelenga.jpg" class="testimonial-img" alt="">
+                    <h3>Garnet Chelenga</h3>
+                    <h4>Teacher</h4>
+                    <p>
+                     With my busy and limited time schedules as a civil servant, this platform has proven that I can be more. I have been able to learn coding from novince, and I am still underway on my studies to earn more.
+                    </p>
+                  </div>
+                </div><!-- End testimonial item -->
+
+                <div class="swiper-slide">
+                  <div class="testimonial-item">
+                    <img src="assets/img/clients/Portrait Picture/null.jpg" class="testimonial-img" alt="">
+                    <h3>Moses Phiri</h3>
+                    <h4>Freelancer</h4>
+                    <p>
+                      I have accumulated much knowledge from Virtual Coding. There mode of delivery is professional and high quality.
+                    </p>
+                  </div>
+                </div><!-- End testimonial item -->
+
+                <div class="swiper-slide">
+                  <div class="testimonial-item">
+                    <img src="assets/img/clients/Portrait Picture/jambo.jpeg" class="testimonial-img" alt="">
+                    <h3>Jambo</h3>
+                    <h4>Artist </h4>
+                    <p>
+                     I rely on Virtual Coder for my digital marketing. 
+                  </div>
+                </div><!-- End testimonial item -->
+
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Testimonials Section -->
+
+    <!-- ======= Team Section ======= -->
+    <section id="team">
+      <div class="container" data-aos="fade-up">
+        <div class="section-header">
+          <h3>Team</h3>
+          <p>Meet our amazing team </p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6" data-aos="zoom-out" data-aos-delay="100">
+            <div class="member">
+              <img src="assets/img/future.jpeg" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Future Bakali</h4>
+                  <span>Founder & Chief Executive Officer</span>
+                  <div class="social">
+                    <a href="https://x.com/BakaliFuture?s=01"><i class="bi bi-twitter"></i></a>
+                    <a href="https://www.facebook.com/Chebakali1910?mibextid=rS40aB7S9Ucbxw6v"><i class="bi bi-facebook"></i></a>
+                    <a href="https://wa.me/265997919223"><i class="bi bi-whatsapp"></i></a>
+                    <a href=""><i class="bi bi-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6" data-aos="zoom-out" data-aos-delay="200">
+            <div class="member">
+              <img src="assets/img/james.jpeg" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>James Shaibu</h4>
+                  <span>Project Manager &amp; Financial Controller</span>
+                  <div class="social">
+                    <a href="https://x.com/jambo265"><i class="bi bi-twitter"></i></a>
+                    <a href="https://www.facebook.com/profile.php?id=100005046349387&mibextid=LQQJ4d"><i class="bi bi-facebook"></i></a>
+                    <a href="https://www.instagram.com/jambo_265?igsh=MTdhNHJ2aGxndHlwNg%3D%3D&utm_source=qr"><i class="bi bi-instagram"></i></a>
+                    <a href="https://wa.me/265888810586"><i class="bi bi-whatsapp"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Team Section -->
+
+    <!-- ======= Clients Section ======= -->
+    <section id="clients" class="section-bg">
+
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h3>Hot Deals right now</h3>
+          <p>Don't miss these crazy deals from our services!</p>
+        </div>
+
+        <div class="row g-0 clients-wrap clearfix" data-aos="zoom-in" data-aos-delay="100">
+
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <img src="assets/img/deals/web-design-development.jpg" class="img-fluid" alt="">
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <img src="assets/img/deals/app-dev-android.jpeg" class="img-fluid" alt="">
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <img src="assets/img/deals/database-dev.jpeg" class="img-fluid" alt="">
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <img src="assets/img/deals/software-dev.jpeg" class="img-fluid" alt="">
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <img src="assets/img/deals/python-programming.jpeg" class="img-fluid" alt="">
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <img src="assets/img/deals/web-dev.jpeg" class="img-fluid" alt="">
+            </div>
+          </div>
+          <!-- 
+
+             <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <img src="assets/img/deals/" class="img-fluid" alt="">
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <img src="assets/img/deals/" class="img-fluid" alt="">
+            </div>
+          </div>
+           -->
+
+         
+
+        </div>
+
+      </div>
+
+    </section><!-- End Clients Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact">
+      <div class="container-fluid" data-aos="fade-up">
+
+        <div class="section-header">
+          <h3>Contact Us</h3>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-6">
+            <div class="map mb-4 mb-lg-0">
+              
+              <iframe width="600" height="450" style="border:0" loading="lazy" 
+              src="https://www.google.com/maps/embed/v1/place?q=malawi+college+of+accountancy&key=AIzaSyDTHisMUYn1tMmEcvaQXCLqfQX9roI9aS0" allowfullscreen></iframe>
+              
+          </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="row">
+              <div class="col-md-5 info">
+                <i class="bi bi-geo-alt"></i>
+                <p>Blantyre, MALAWI</p>
+              </div>
+              <div class="col-md-4 info">
+                <i class="bi bi-envelope"></i>
+                <p>virtualcoder265@gmail.com</p>
+              </div>
+              <div class="col-md-3 info">
+                <i class="bi bi-phone"></i>
+                <p>+265 997 919 223</p>
+              </div>
+            </div>
+
+            <div class="form">
+              <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                <div class="row">
+                  <div class="form-group col-lg-6">
+                    <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                  </div>
+                  <div class="form-group col-lg-6 mt-3 mt-lg-0">
+                    <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                  </div>
+                </div>
+                <div class="form-group mt-3">
+                  <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+                </div>
+                <div class="form-group mt-3">
+                  <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+                </div>
+                <div class="my-3">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Your message has been sent. Thank you!</div>
+                </div>
+                <div class="text-center"><button type="submit" title="Send Message">Send Message</button></div>
+              </form>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-4 col-md-6 footer-info">
+            <h3>Virtual Coding</h3>
+            <p>Getting any service from us hereby indicates that you have read, understood and accepted our <a href="terms.html">terms and conditions</a> and our <a href="terms.html">Data and Privacy Policy.</a></p>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About us</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="terms.html">Terms of service</a></li>
+              <li><a href="terms.html">Privacy policy</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h4>Contact Us</h4>
+            <p>
+          Blantyre <br>
+             <br>
+            Malawi <br>
+              <strong>Phone:</strong>+265 997 919 223 <br>
+              <strong>Email:</strong>virtualcoder265@gmail.com<br>
+            </p>
+
+            <div class="social-links">
+              <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+              <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+              <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+              <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+              <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+            </div>
+
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-newsletter">
+            <h4>Our Newsletter</h4>
+            <p>Never miss discounts and offer updates from us! Get update news directly from your email</p>
+            <form action="" method="post">
+              <input type="email" name="email"><input type="submit" value="Subscribe">
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong>Virtual Coding</strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+
+        Modded by <a href="https://wa.me/265997919223">Virtual Coder</a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/caching.js"></script>
+
+  <!-- loader -->
+  <script>
+    // In script.js
+
+// Get loader element
+const loader = document.getElementById('loader');
+
+// Show loader when page loads
+window.addEventListener('load', function() {
+  loader.style.display = 'flex'; 
+})
+
+// Hide loader once page content has loaded
+window.addEventListener('DOMContentLoaded', function() {
+  loader.style.display = 'none';
+})
+  </script>
+  
+
+</body>
+
+</html>
