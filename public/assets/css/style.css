@@ -719,7 +719,7 @@ section {
 
 #why-us .card:hover {
   background: #003b7a;
-  border-left:3px solid #ccd3db;
+  border-left:5px solid #ccd3db;
 }
 
 #why-us .card i {
