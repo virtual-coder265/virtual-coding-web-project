@@ -10,7 +10,7 @@ body {
 }
 
 a {
-  color: #007bff;
+  color: #099744;
   text-decoration: none;
   transition: 0.5s;
 }
@@ -338,7 +338,7 @@ h6 {
 #hero {
   width: 100%;
   position: relative;
- background: url("../img/hero-bg.png") center bottom;
+ background: url("../img/home-banner/1.png") center bottom;
  /* background-color: rgba(12, 3, 80, 0.172);*/
   background-size: cover;
   padding: 200px 0 120px 0;
