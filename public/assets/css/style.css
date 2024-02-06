@@ -691,7 +691,7 @@ section {
 
 #why-us {
   padding: 60px 0;
-  background: #004a99;
+  background: #01126d;
 }
 
 #why-us .section-header h3,
@@ -700,7 +700,7 @@ section {
 }
 
 #why-us .card {
-  background: #00458f;
+  background: #046836;
   border-color: #00458f;
   border-radius: 10px;
   margin: 0 15px;
@@ -719,7 +719,7 @@ section {
 
 #why-us .card:hover {
   background: #003b7a;
-  border-color: #003b7a;
+  border-left:3px solid #ccd3db;
 }
 
 #why-us .card i {
@@ -743,11 +743,11 @@ section {
   font-weight: 600;
   display: inline-block;
   transition: 0.3s ease-in-out;
-  border-bottom: #00458f solid 2px;
+  border-bottom: #e8edf1 solid 2px;
 }
 
 #why-us .card .readmore:hover {
-  border-bottom: #fff solid 2px;
+  border-bottom: #d31616 solid 2px;
 }
 
 #why-us .counters {
